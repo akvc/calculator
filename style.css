@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper-main {
+  width: 330px;
+  margin: auto;
+  text-align: center;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
+}
