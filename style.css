@@ -6,8 +6,12 @@
   font-family: 'ZCOOL QingKe HuangYou', sans-serif;
 }
 
+h1 {
+  margin: 50px auto;
+}
+
 .wrapper {
-  width: 350px;
+  width: 300px;
   margin: auto;
   background-color: rgb(41, 71, 79);
   padding: 1rem;
@@ -37,6 +41,11 @@
 .buttons button {
   padding: 10px;
   font-size: 20px;
+  border-radius: 3px;
+}
+
+.buttons button:hover {
+  background-color: #dbdbdb;
 }
 
 #equal {
