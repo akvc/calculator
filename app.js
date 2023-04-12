@@ -7,7 +7,7 @@ function clear() {
 }
 
 function displayResult() {
-  const result = eval(screen.value);
+  const result = Function('return ' + screen.value)();
   screen.value = result;
 }
 
