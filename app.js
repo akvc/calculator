@@ -23,7 +23,7 @@ buttons.forEach((btn) => {
       case '=':
         displayResult();
         break;
-      case '←':
+      case '<':
         screen.value = screen.value.slice(0, -1);
         break;
       case '+/-':
